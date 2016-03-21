@@ -1,0 +1,66 @@
+<body>
+    <table id="RoomTypeList">
+        <thead>
+            <tr>
+                <td>Attribute Name</td>
+                <td>Base Data Type (Length)</td>
+            </tr>
+        </thead>
+        <tbody id="yui_3_17_2_1_1458509620248_313">
+            <tr>
+                <td>EANHotelID</td>
+                <td>int</td>
+            </tr>
+            <tr>
+                <td>RoomTypeID</td>
+                <td>int</td>
+            </tr>
+            <tr>
+                <td>LanguageCode</td>
+                <td>nvarchar(5)</td>
+            </tr>
+            <tr id="yui_3_17_2_1_1458509620248_312">
+                <td id="yui_3_17_2_1_1458509620248_311">RoomTypeImage</td>
+                <td>nvarchar(256)</td>
+            </tr>
+            <tr>
+                <td>RoomTypeName</td>
+                <td>nvarchar(200)</td>
+            </tr>
+            <tr>
+                <td>RoomTypeDescription</td>
+                <td>TEXT</td>
+            </tr>
+        </tbody>
+    </table>
+    <table id="RoomTypeList_xx_XX">
+        <thead>
+            <tr>
+                <td>Attribute Name</td>
+                <td>Base Data Type (Length)</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>EANHotelID</td>
+                <td>int</td>
+            </tr>
+            <tr>
+                <td>RoomTypeID</td>
+                <td>int</td>
+            </tr>
+            <tr>
+                <td>LanguageCode</td>
+                <td>nvarchar(5)</td>
+            </tr>
+            <tr>
+                <td>RoomTypeName</td>
+                <td>nvarchar(200)</td>
+            </tr>
+            <tr>
+                <td>RoomTypeDescription</td>
+                <td>TEXT</td>
+            </tr>
+        </tbody>
+    </table>
+</body>

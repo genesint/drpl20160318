@@ -1,0 +1,390 @@
+<body>
+    <table id="CityCoordinatesList">
+        <thead>
+            <tr>
+                <td>Attribute Name</td>
+                <td>Base Data Type (Length)</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>RegionID</td>
+                <td>int</td>
+            </tr>
+            <tr>
+                <td>RegionName</td>
+                <td>nvarchar(255)</td>
+            </tr>
+            <tr>
+                <td>Coordinates</td>
+                <td>TEXT</td>
+            </tr>
+        </tbody>
+    </table>
+    <table id="AirportCoordinatesList">
+        <thead>
+            <tr>
+                <td>Attribute Name</td>
+                <td>Base Data Type (Length)</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>AirportID</td>
+                <td>int</td>
+            </tr>
+            <tr>
+                <td>AirportCode</td>
+                <td>nvarchar(3)</td>
+            </tr>
+            <tr>
+                <td>AirportName</td>
+                <td>nvarchar(70)</td>
+            </tr>
+            <tr>
+                <td>Latitude</td>
+                <td>numeric(9,6)</td>
+            </tr>
+            <tr>
+                <td>Longitude</td>
+                <td>numeric(9,6)</td>
+            </tr>
+            <tr>
+                <td>MainCityID</td>
+                <td>int</td>
+            </tr>
+            <tr>
+                <td>CountryCode</td>
+                <td>nvarchar(2)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="AliasRegionList">
+        <thead>
+            <tr>
+                <td>Attribute Name</td>
+                <td>Base Data Type (Length)</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>RegionID</td>
+                <td>int</td>
+            </tr>
+            <tr>
+                <td>LanguageCode</td>
+                <td>nvarchar(5)</td>
+            </tr>
+            <tr>
+                <td>AliasString</td>
+                <td>nvarchar(255)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="AliasRegionList_xx_XX">
+        <thead>
+            <tr>
+                <td>Attribute Name</td>
+                <td>Base Data Type (Length)</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>RegionID</td>
+                <td>int</td>
+            </tr>
+            <tr>
+                <td>LanguageCode</td>
+                <td>nvarchar(5)</td>
+            </tr>
+            <tr>
+                <td>AliasString</td>
+                <td>nvarchar(255)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="CountryList">
+        <thead>
+            <tr>
+                <td>Attribute Name</td>
+                <td>Base Data Type (Length)</td>
+            </tr>
+        </thead>
+        <tbody id="yui_3_17_2_1_1458510785693_423">
+            <tr>
+                <td>CountryID</td>
+                <td>int</td>
+            </tr>
+            <tr>
+                <td>LanguageCode</td>
+                <td>nvarchar(5)</td>
+            </tr>
+            <tr>
+                <td>CountryName</td>
+                <td>nvarchar(256)</td>
+            </tr>
+            <tr id="yui_3_17_2_1_1458510785693_422">
+                <td id="yui_3_17_2_1_1458510785693_421">CountryCode</td>
+                <td>nvarchar(2)</td>
+            </tr>
+            <tr>
+                <td>Transliteration</td>
+                <td>nvarchar(256)</td>
+            </tr>
+            <tr>
+                <td>ContinentID</td>
+                <td>int</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="CountryList_xx_XX">
+        <thead>
+            <tr>
+                <td>Attribute Name</td>
+                <td>Base Data Type (Length)</td>
+            </tr>
+        </thead>
+        <tbody id="yui_3_17_2_1_1458510785693_455">
+            <tr>
+                <td>CountryID</td>
+                <td>int</td>
+            </tr>
+            <tr id="yui_3_17_2_1_1458510785693_454">
+                <td id="yui_3_17_2_1_1458510785693_453">LanguageCode</td>
+                <td>nvarchar(5)</td>
+            </tr>
+            <tr>
+                <td>CountryName</td>
+                <td>nvarchar(256)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="ParentRegionList">
+        <thead>
+            <tr>
+                <td>Attribute Name</td>
+                <td>Base Data Type (Length)</td>
+            </tr>
+        </thead>
+        <tbody id="yui_3_17_2_1_1458510785693_483">
+            <tr>
+                <td>RegionID</td>
+                <td>int</td>
+            </tr>
+            <tr>
+                <td>RegionType</td>
+                <td>nvarchar(50)</td>
+            </tr>
+            <tr>
+                <td>RelativeSignificance</td>
+                <td>nvarchar(3)</td>
+            </tr>
+            <tr>
+                <td>SubClass</td>
+                <td>nvarchar(50)</td>
+            </tr>
+            <tr id="yui_3_17_2_1_1458510785693_482">
+                <td id="yui_3_17_2_1_1458510785693_481">RegionName</td>
+                <td>nvarchar(255)</td>
+            </tr>
+            <tr>
+                <td>RegionNameLong</td>
+                <td>nvarchar(510)</td>
+            </tr>
+            <tr>
+                <td>ParentRegionID</td>
+                <td>int</td>
+            </tr>
+            <tr>
+                <td>ParentRegionType</td>
+                <td>nvarchar(50)</td>
+            </tr>
+            <tr>
+                <td>ParentRegionName</td>
+                <td>nvarchar(255)</td>
+            </tr>
+            <tr>
+                <td>ParentRegionNameLong</td>
+                <td>nvarchar(510)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="RegionList_xx_XX">
+        <thead>
+            <tr>
+                <td>Attribute Name</td>
+                <td>Base Data Type (Length)</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>RegionID</td>
+                <td>int</td>
+            </tr>
+            <tr>
+                <td>LanguageCode</td>
+                <td>nvarchar(5)</td>
+            </tr>
+            <tr>
+                <td>RegionName</td>
+                <td>nvarchar(255)</td>
+            </tr>
+            <tr>
+                <td>RegionNameLong</td>
+                <td>nvarchar(510)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="NeighborhoodCoordinatesList">
+        <thead>
+            <tr>
+                <td>Attribute Name</td>
+                <td>Base Data Type (Length)</td>
+            </tr>
+        </thead>
+        <tbody id="yui_3_17_2_1_1458510785693_535">
+            <tr>
+                <td>RegionID</td>
+                <td>int</td>
+            </tr>
+            <tr id="yui_3_17_2_1_1458510785693_534">
+                <td>RegionName</td>
+                <td id="yui_3_17_2_1_1458510785693_533">nvarchar(255)</td>
+            </tr>
+            <tr>
+                <td>Coordinates</td>
+                <td>TEXT</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="PointsOfInterestCoordinatesList">
+        <thead>
+            <tr>
+                <td>Attribute Name</td>
+                <td>Base Data Type (Length)</td>
+            </tr>
+        </thead>
+        <tbody id="yui_3_17_2_1_1458510785693_562">
+            <tr>
+                <td>RegionID</td>
+                <td>int</td>
+            </tr>
+            <tr id="yui_3_17_2_1_1458510785693_561">
+                <td id="yui_3_17_2_1_1458510785693_560">RegionName</td>
+                <td>nvarchar(255)</td>
+            </tr>
+            <tr>
+                <td>RegionNameLong</td>
+                <td>nvarchar(510)</td>
+            </tr>
+            <tr>
+                <td>Latitude</td>
+                <td>numeric(9,6)</td>
+            </tr>
+            <tr>
+                <td>Longitude</td>
+                <td>numeric(9,6)</td>
+            </tr>
+            <tr>
+                <td>SubClassification</td>
+                <td>nvarchar(20)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="RegionCenterCoordinatesList">
+        <thead>
+            <tr>
+                <td>Attribute Name</td>
+                <td>Base Data Type (Length)</td>
+            </tr>
+        </thead>
+        <tbody id="yui_3_17_2_1_1458510785693_587">
+            <tr>
+                <td>RegionID</td>
+                <td>int</td>
+            </tr>
+            <tr>
+                <td>RegionName</td>
+                <td>nvarchar(255)</td>
+            </tr>
+            <tr id="yui_3_17_2_1_1458510785693_586">
+                <td id="yui_3_17_2_1_1458510785693_585">CenterLatitude</td>
+                <td>numeric(9,6)</td>
+            </tr>
+            <tr>
+                <td>CenterLongitude</td>
+                <td>numeric(9,6)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="Destination_Detail">
+        <thead>
+            <tr>
+                <td>Attribute Name</td>
+                <td>Base Data Type</td>
+                <td>Length</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Destination</td>
+                <td align="center">nvarchar</td>
+                <td align="center">280</td>
+            </tr>
+            <tr>
+                <td>DestinationID</td>
+                <td align="center">uniqueidentifier</td>
+                <td align="center">16</td>
+            </tr>
+            <tr>
+                <td>CenterLongitude</td>
+                <td align="center">numeric</td>
+                <td align="center">5</td>
+            </tr>
+            <tr>
+                <td>CenterLatitude</td>
+                <td align="center">numeric</td>
+                <td align="center">5</td>
+            </tr>
+            <tr>
+                <td>StateProvince</td>
+                <td align="center">varchar</td>
+                <td align="center">2</td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td align="center">varchar</td>
+                <td align="center">3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="RegionEANHotelIDMapping">
+        <thead>
+            <tr>
+                <td>Attribute Name</td>
+                <td>Base Data Type (Length)</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>RegionID</td>
+                <td>int</td>
+            </tr>
+            <tr>
+                <td>EANHotelID</td>
+                <td>int</td>
+            </tr>
+        </tbody>
+    </table>
+</body>

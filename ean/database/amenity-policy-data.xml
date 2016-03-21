@@ -1,0 +1,106 @@
+<body>
+    <table id="AttributeList">
+        <thead>
+            <tr>
+                <td>Attribute Name</td>
+                <td>Base Data Type (Length)</td>
+            </tr>
+        </thead>
+        <tbody id="yui_3_17_2_1_1458509941754_308">
+            <tr>
+                <td>AttributeID</td>
+                <td>int</td>
+            </tr>
+            <tr>
+                <td>LanguageCode</td>
+                <td>nvarchar(5)</td>
+            </tr>
+            <tr id="yui_3_17_2_1_1458509941754_307">
+                <td id="yui_3_17_2_1_1458509941754_306">AttributeDesc</td>
+                <td>nvarchar(255)</td>
+            </tr>
+            <tr>
+                <td>Type</td>
+                <td>nvarchar(15)</td>
+            </tr>
+            <tr>
+                <td>SubType</td>
+                <td>nvarchar(15)</td>
+            </tr>
+        </tbody>
+    </table>
+    <table id="AttributeList_xx_XX">
+        <thead>
+            <tr>
+                <td>Attribute Name</td>
+                <td>Base Data Type (Length)</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>AttributeID</td>
+                <td>int</td>
+            </tr>
+            <tr>
+                <td>LanguageCode</td>
+                <td>nvarchar(5)</td>
+            </tr>
+            <tr>
+                <td>AttributeDesc</td>
+                <td>nvarchar(255)</td>
+            </tr>
+        </tbody>
+    </table>
+    <table id="PropertyAttributeLink">
+        <thead>
+            <tr>
+                <td>Attribute Name</td>
+                <td>Base Data Type (Length)</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>EANHotelID</td>
+                <td>int</td>
+            </tr>
+            <tr>
+                <td>AttributeID</td>
+                <td>int</td>
+            </tr>
+            <tr>
+                <td>LanguageCode</td>
+                <td>nvarchar(5)</td>
+            </tr>
+            <tr>
+                <td>AppendTxt</td>
+                <td>nvarchar(800)</td>
+            </tr>
+        </tbody>
+    </table>
+    <table id="PropertyAttributeLink_xx_XX">
+        <thead>
+            <tr>
+                <td>Attribute Name</td>
+                <td>Base Data Type (Length)</td>
+            </tr>
+        </thead>
+        <tbody id="yui_3_17_2_1_1458509941754_361">
+            <tr id="yui_3_17_2_1_1458509941754_360">
+                <td id="yui_3_17_2_1_1458509941754_359">EANHotelID</td>
+                <td>int</td>
+            </tr>
+            <tr>
+                <td>AttributeID</td>
+                <td>int</td>
+            </tr>
+            <tr>
+                <td>LanguageCode</td>
+                <td>nvarchar(5)</td>
+            </tr>
+            <tr>
+                <td>AppendTxt</td>
+                <td>nvarchar(800)</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
