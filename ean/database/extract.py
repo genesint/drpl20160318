@@ -2,9 +2,10 @@
 
 from xml.dom.minidom import parse
 import xml.dom.minidom
-
+# Get the file name
+fl=raw_input("xml file: ")
 # Open XML document using minidom parser
-dt = xml.dom.minidom.parse("property-data.xml")
+dt = xml.dom.minidom.parse(fl)
 dl = dt.documentElement
 tables=dl.getElementsByTagName("table")
 for i in range(tables.length):
