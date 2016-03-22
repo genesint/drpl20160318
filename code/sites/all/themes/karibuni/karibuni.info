@@ -1,4 +1,4 @@
-name = kaibuni
+name = karibuni
 description = Uses the Bootstrap Framework LESS source files and must be compiled (not for beginners).
 core = 7.x
 base theme = bootstrap
