@@ -1,0 +1,2 @@
+createuser --pwprompt --no-superuser --no-createdb --no-createrole eandb
+createdb --encoding=UTF-8 --owner=eandb eandb

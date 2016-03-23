@@ -182,7 +182,7 @@
             </tr>
             <tr>
                 <td>PropertyCategoryDesc</td>
-                <td>nvarchar(256</td>
+                <td>nvarchar(256)</td>
             </tr>
         </tbody>
     </table>

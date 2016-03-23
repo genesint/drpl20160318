@@ -23,172 +23,142 @@ HighRate numeric(19,4),
 LowRate numeric(19,4),
 CheckInTime varchar(10),
 CheckOutTime varchar(10));
-
-CREATE TABLE ActivePropertyList_Multi_Language(
+CREATE TABLE ActivePropertyList_xx_XX(
 EANHotelID int,
 LanguageCode varchar(5),
 Name varchar(70),
 Location varchar(80),
 CheckInTime varchar(10),
 CheckOutTime varchar(10));
-
 CREATE TABLE PropertyTypeList(
 PropertyCategory int,
 LanguageCode varchar(5),
 PropertyCategoryDesc varchar(256));
-
-CREATE TABLE PropertyTypeList_Multi_Language(
+CREATE TABLE PropertyTypeList_xx_XX(
 PropertyCategory int,
 LanguageCode varchar(5),
-PropertyCategoryDesc varchar(256);
-
+PropertyCategoryDesc varchar(256));
 CREATE TABLE ChainList(
 ChainCodeID int,
 ChainName varchar(30));
-
 CREATE TABLE PropertyDescriptionList(
 EANHotelID int,
 LanguageCode varchar(5),
 PropertyDescription TEXT);
-
-CREATE TABLE PropertyDescriptionList_Multi_Language(
+CREATE TABLE PropertyDescriptionList_xx_XX(
 EANHotelID int,
 LanguageCode varchar(5),
 PropertyDescription TEXT);
-
 CREATE TABLE PolicyDescriptionList(
 EANHotelID int,
 LanguageCode varchar(5),
 PolicyDescription TEXT);
-
-CREATE TABLE PolicyDescriptionList_Multi_Language(
+CREATE TABLE PolicyDescriptionList_xx_XX(
 EANHotelID int,
 LanguageCode varchar(5),
 SectionTypeID int,
 PolicyDescription TEXT);
-
 CREATE TABLE PropertyFeesList(
 EANHotelID int,
 LanguageCode varchar(5),
 PropertyFeesDescription TEXT);
-
-CREATE TABLE PropertyFeesList_Multi_Language(
+CREATE TABLE PropertyFeesList_xx_XX(
 EANHotelID int,
 LanguageCode varchar(5),
 PropertyFeesDescription TEXT);
-
 CREATE TABLE PropertyMandatoryFeesList(
 EANHotelID int,
 LanguageCode varchar(5),
 PropertyMandatoryFeesDescription TEXT);
-
+CREATE TABLE PropertyMandatoryFeesList_xx_XX(
+EANHotelID int,
+LanguageCode varchar(5),
+PropertyFeesDescription TEXT);
 CREATE TABLE RecreationDescriptionList(
 EANHotelID int,
 LanguageCode varchar(5),
 PropertyFeesDescription TEXT);
-
-CREATE TABLE RecreationDescriptionList_Multi_Language(
+CREATE TABLE RecreationDescriptionList_xx_XX(
 EANHotelID int,
 LanguageCode varchar(5),
 RecreationDescription TEXT);
-
 CREATE TABLE PropertyAmenitiesList(
 EANHotelID int,
 LanguageCode varchar(5),
 PropertyAmenitiesDescription TEXT);
-
-CREATE TABLE PropertyAmenitiesList_Multi_Language(
+CREATE TABLE PropertyAmenitiesList_xx_XX(
 EANHotelID int,
 LanguageCode varchar(5),
 PropertyAmenitiesDescription TEXT);
-
 CREATE TABLE PropertyBusinessAmenitiesList(
 EANHotelID int,
 LanguageCode varchar(5),
 PropertyBusinessAmenitiesDescription TEXT);
-
-CREATE TABLE PropertyBusinessAmenitiesList_Multi_Language(
+CREATE TABLE PropertyBusinessAmenitiesList_xx_XX(
 EANHotelID int,
 LanguageCode varchar(5),
 PropertyBusinessAmenitiesList TEXT);
-
 CREATE TABLE PropertyLocationList(
 EANHotelID int,
 LanguageCode varchar(5),
 PropertyLocationDescription TEXT);
-
-CREATE TABLE PropertyLocationList_Multi_Language(
+CREATE TABLE PropertyLocationList_xx_XX(
 EANHotelID int,
 LanguageCode varchar(5),
 PropertyLocationDescription TEXT);
-
 CREATE TABLE PropertyNationalRatingsList(
 EANHotelID int,
 LanguageCode varchar(5),
 PropertyNationalRatingsDescription TEXT);
-
-CREATE TABLE PropertyNationalRatingsList_Multi_Language(
+CREATE TABLE PropertyNationalRatingsList_xx_XX(
 EANHotelID int,
 LanguageCode varchar(5),
 PropertyNationalRatingsDescription TEXT);
-
 CREATE TABLE PropertyRenovationsList(
 EANHotelID int,
 LanguageCode varchar(5),
 PropertyRenovationsDescription TEXT);
-
-CREATE TABLE PropertyRenovationsList_Multi_Language(
+CREATE TABLE PropertyRenovationsList_xx_XX(
 EANHotelID int,
 LanguageCode varchar(5),
 PropertyRenovationsDescription TEXT);
-
 CREATE TABLE PropertyRoomsList(
 EANHotelID int,
 LanguageCode varchar(5),
 PropertyRoomsDescription TEXT);
-
-CREATE TABLE PropertyRoomsList_Multi_Language(
+CREATE TABLE PropertyRoomsList_xx_XX(
 EANHotelID int,
 LanguageCode varchar(5),
 PropertyRoomsList TEXT);
-
 CREATE TABLE AreaAttractionsList(
 EANHotelID int,
 LanguageCode varchar(5),
 AreaAttractions TEXT);
-
-CREATE TABLE AreaAttractionsList_Multi_Language(
+CREATE TABLE AreaAttractionsList_xx_XX(
 EANHotelID int,
 LanguageCode varchar(5),
 AreaAttractions TEXT);
-
 CREATE TABLE DiningDescriptionList(
 EANHotelID int,
 LanguageCode varchar(5),
 PropertyDiningDescription TEXT);
-
-CREATE TABLE DiningDescriptionList_Multi_Language(
+CREATE TABLE DiningDescriptionList_xx_XX(
 EANHotelID int,
 LanguageCode varchar(5),
 PropertyDiningDescription TEXT);
-
 CREATE TABLE SpaDescriptionList(
 EANHotelID int,
 LanguageCode varchar(5),
 SpaDescription TEXT);
-
-CREATE TABLE SpaDescriptionList_Multi_Language(
+CREATE TABLE SpaDescriptionList_xx_XX(
 EANHotelID int,
 LanguageCode varchar(5),
 SpaDescription TEXT);
-
 CREATE TABLE WhatToExpectDescriptionList(
 EANHotelID int,
 LanguageCode varchar(5),
 WhatToExpect TEXT);
-
-CREATE TABLE WhatToExpectList_Multi_Language(
+CREATE TABLE WhatToExpectList_xx_XX(
 EANHotelID int,
 LanguageCode varchar(5),
 WhatToExpect TEXT);
-
