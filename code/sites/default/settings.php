@@ -232,8 +232,8 @@ $databases['eandb']['default'] =
       'database' => 'eandb',
       'username' => 'eandb',
       'password' => 'eandb',
-      'host' => 'localhost',
-      'port' => '',
+      'host' => '52.38.74.218',
+      'port' => '5432',
       'driver' => 'pgsql',
       'prefix' => '',
 );

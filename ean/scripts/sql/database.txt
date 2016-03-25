@@ -1,2 +1,9 @@
 createuser --pwprompt --no-superuser --no-createdb --no-createrole eandb
 createdb --encoding=UTF-8 --owner=eandb eandb
+
+
+pg_dump -U postgres karibuni > karibuni.pgsql
+psql -U postgres karibuni < karibuni.pgsql
+
+createuser --pwprompt --no-superuser --no-createdb --no-createrole karibuni
+createdb --encoding=UTF-8 --owner=karibuni karibuni
