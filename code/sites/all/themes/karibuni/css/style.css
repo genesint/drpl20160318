@@ -7540,3 +7540,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   min-width: 100%;
   height: 500px;
 }
+/* CUSTOMIZE THE HOME PAGE
+-------------------------------------------------- */
+.page-header {
+  display: none;
+}

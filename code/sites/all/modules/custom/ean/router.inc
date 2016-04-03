@@ -3,6 +3,12 @@ function router()
 {
     $path = request_path();
     switch ($path) {
+
+        case '':
+            $page = array(
+                '#markup' => theme('home', array()),
+            );
+            break;
         case 'home':
             $page = array(
                 '#markup' => theme('home', array()),
