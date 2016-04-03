@@ -3,9 +3,9 @@ function router()
 {
     $path = request_path();
     switch ($path) {
-        case 'brief-view':
+        case 'home':
             $page = array(
-                '#markup' => theme('brief-view', array()),
+                '#markup' => theme('home', array()),
             );
             break;
         default:

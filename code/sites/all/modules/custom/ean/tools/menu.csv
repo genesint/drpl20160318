@@ -1,2 +1,2 @@
 title|title callback|title arguments|description|page callback|page arguments|access callback|access arguments|file|file path|weight|menu_name|type|url
-Manage brief||||router||||router.inc||||MENU_NORMAL_ITEM|brief-view
+Home||||router||||router.inc||||MENU_NORMAL_ITEM|home

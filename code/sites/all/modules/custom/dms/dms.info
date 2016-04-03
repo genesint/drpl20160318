@@ -1,6 +1,0 @@
-name = dms
-description = Support module for document managements system
-package = Document Management System
-
-files[] = dms.module
-core = 7.x

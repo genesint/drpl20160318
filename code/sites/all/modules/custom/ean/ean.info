@@ -1,0 +1,6 @@
+name = ean
+description = EAN travel extensions
+package = Travel
+
+files[] = dms.module
+core = 7.x

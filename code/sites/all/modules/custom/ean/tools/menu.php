@@ -36,7 +36,7 @@ function addnode($line){
 	$form_state['values']['op']=t('Save');
 	drupal_form_submit('menu_node_form',$form_state, $node);
 }
-$filename="sites/all/modules/custom/dms/tools/menu.csv";
+$filename="sites/all/modules/custom/ean/tools/menu.csv";
 $filearray = file($filename);
 $i=-1;
 foreach($filearray as $line){
