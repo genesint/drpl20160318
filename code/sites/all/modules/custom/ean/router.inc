@@ -9,11 +9,6 @@ function router()
                 '#markup' => theme('home', array()),
             );
             break;
-        case 'home':
-            $page = array(
-                '#markup' => theme('home', array()),
-            );
-            break;
         default:
             $page = array(
                 '#markup' => "<div>Hello, world</div>",

@@ -25,10 +25,12 @@ function ean_menu()
 function ean_theme()
 {
     return array(
-        'home' => array(
-            'template' => 'home',
+       /* 'searchdh_node_form' => array(
+            'render element' => 'form',
+            'template' => 'searchdh-node-form',
+            'path' => 'sites/all/modules/custom/ean',
             'variables' => array('title' => '', 'contents' => array())
-        ),
+        ),*/
     );
 }
 
