@@ -11,4 +11,28 @@ a.propertycurrency,
 a.location,
 b.caption,
 b.thumbnailurl,
-b.url INTO cityhotelcountry FROM activepropertylist a JOIN hotelimagelist b on a.eanhotelid=b.eanhotelid limit 5000
+b.url INTO cityhotelcountry FROM activepropertylist a JOIN hotelimagelist b on a.eanhotelid=b.eanhotelid
+
+
+SELECT  
+row_number() over () as id,
+a.eanhotelid,
+a.name, 
+a.city,
+a.country,
+a.location,
+a.starrating,
+a.lowrate, 
+a.highrate,
+a.checkintime, 
+a.checkouttime,
+a.propertycurrency, 
+b.caption,
+b.thumbnailurl,
+b.url,
+c.propertydescription
+INTO xlist01 
+FROM 
+activepropertylist a 
+JOIN hotelimagelist b on a.eanhotelid=b.eanhotelid
+JOIN propertydescriptionlist c on a.eanhotelid=c.eanhotelid
