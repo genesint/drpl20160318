@@ -4,6 +4,7 @@ $form['actions']["preview"]['#access'] = 0;
 drupal_set_title('Karibuni Africa: Search 532,000+ hotels, apartments, villas and more …');
 $top_deals = top_hotel_deals("Kampala");
 $n = 6;
+global $base_url;
 ?>
 
 <div class="container-fluid">
@@ -100,7 +101,7 @@ $n = 6;
             <div class="col-md-3">
                 <div>
                     <div><img src="<?php print $top_deals[$i]['url']; ?>" width="100%"/></div>
-                    <div><?php print $top_deals[$i]['name'];?></div>
+                    <div><a href="<?php echo $base_url; ?>/hotel?id=<?php echo $top_deals[$i]['eanhotelid']; ?>"><?php print $top_deals[$i]['name'];?></a></div>
                     <div><?php print $top_deals[$i]['city'];?>, <?php print $top_deals[$i]['country'];?></div>
                     <div><?php print $top_deals[$i]['location'];?></div>
                     <div>from <?php print $top_deals[$i]['lowrate'];?></div>
@@ -116,7 +117,7 @@ $n = 6;
             <div class="col-md-3">
                 <div>
                     <div><img src="<?php print $top_deals[$i]['url']; ?>" width="100%"/></div>
-                    <div><?php print $top_deals[$i]['name'];?></div>
+                    <div><a href="<?php echo $base_url; ?>/hotel?id=<?php echo $top_deals[$i]['eanhotelid']; ?>"><?php print $top_deals[$i]['name'];?></a></div>
                     <div><?php print $top_deals[$i]['city'];?>, <?php print $top_deals[$i]['country'];?></div>
                     <div><?php print $top_deals[$i]['location'];?></div>
                     <div>from <?php print $top_deals[$i]['lowrate'];?></div>

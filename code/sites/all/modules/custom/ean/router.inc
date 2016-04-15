@@ -4,9 +4,9 @@ function router()
     $path = request_path();
     switch ($path) {
 
-        case '':
+        case 'hotel':
             $page = array(
-                '#markup' => theme('home', array()),
+                '#markup' => theme('hotel', array()),
             );
             break;
         default:

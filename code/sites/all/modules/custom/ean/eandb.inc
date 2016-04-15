@@ -30,3 +30,17 @@ function top_hotel_deals($city)
     db_set_active("default");
     return $records;
 }
+function hotel_images($eanhotelid)
+{
+    db_set_active("eandb");
+    $query = "SELECT * from hotelimagelist  where eanhotelid = $eanhotelid  ";
+    $result = db_query($query);
+    $records = array();
+    if ($result) {
+        while ($row = $result->fetchAssoc()) {
+            $records[] = $row;
+        }
+    }
+    db_set_active("default");
+    return $records;
+}
