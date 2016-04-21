@@ -58,6 +58,6 @@ d.propertyamenitiesdescription
 INTO xlist02 
 FROM 
 activepropertylist a 
-LEFT JOIN hotelimagelist b ON a.eanhotelid=b.eanhotelid
-LEFT JOIN propertydescriptionlist c ON a.eanhotelid=c.eanhotelid
-LEFT JOIN propertyamenitieslist d ON a.eanhotelid=d.eanhotelid
+JOIN hotelimagelist b ON a.eanhotelid=b.eanhotelid
+JOIN propertydescriptionlist c ON a.eanhotelid=c.eanhotelid
+JOIN propertyamenitieslist d ON a.eanhotelid=d.eanhotelid

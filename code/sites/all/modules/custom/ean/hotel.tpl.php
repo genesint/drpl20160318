@@ -7,6 +7,7 @@ $n=count($featured);
 # we'll have as many carousel's as image categories
 # place a tabbing scheme on the left
 ?>
+
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-2"></div>
