@@ -7588,9 +7588,37 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 /* searchdh ****************** */
 .searchdh {
   color: #ffffff;
-  background-color: #3DA4C5;
-  border-radius: 5px;
+  background-color: #E6CA04;
+  /*border-radius:5px; */
+  width: 100%;
 }
 div.alert {
   display: none;
+}
+.postcard {
+  max-height: 150px;
+  overflow: hidden;
+}
+.top-deals {
+  background-color: #f5f5f5;
+}
+.top-deal-item {
+  background-color: #ffffff;
+  min-height: 300px;
+  padding-bottom: 20px;
+}
+.top-deal-data {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.top-deal-button {
+  position: absolute;
+  bottom: 5px;
+}
+.searchdh-title {
+  width: 20%;
+}
+.searchdh-check-in,
+.searchdh-check-out {
+  width: 20%;
 }
